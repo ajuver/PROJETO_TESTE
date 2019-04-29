@@ -78,7 +78,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>propostaCredito</finalName>
+		<!--<finalName>propostaCredito</finalName>-->
 	</build>
 
 </project>
