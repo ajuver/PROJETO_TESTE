@@ -1,0 +1,4 @@
+com\propostaCredito\propostaCredito\app\service\CadastroPropostaCredito.class
+com\propostaCredito\propostaCredito\app\resources\conexaoBanco\ConexaoMySQL.class
+com\propostaCredito\propostaCredito\configuration\PropostaCreditoApplication.class
+com\propostaCredito\propostaCredito\configuration\SwaggerConfig.class
