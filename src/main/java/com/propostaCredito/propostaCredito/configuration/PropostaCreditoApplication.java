@@ -25,22 +25,7 @@ public class PropostaCreditoApplication {
 		SpringApplication.run(PropostaCreditoApplication.class, args);
 		System.out.println("HOJE");
 		
-	    Connection con = ConexaoMySQL.getConexaoMySQL();
 	    
-	    System.out.println("teste");
-	    
-	    System.out.println(ConexaoMySQL.statusConection());		
-		
-		  // the mysql insert statement
-		  String query = " insert into proposta(nome)"
-		+ " values (?)";
-		
-		  // create the mysql insert preparedstatement
-		  PreparedStatement preparedStmt = con.prepareStatement(query);
-		  preparedStmt.setString (1, "MICHAEL");
-		
-		  // execute the preparedstatement
-		  preparedStmt.execute();
 
 		 
 	}
