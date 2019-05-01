@@ -25,15 +25,15 @@ public class ConexaoMySQL {
         	Class.forName(driverName);
         	 
         	// Configurando a nossa conexão com um banco de dados//
-            String serverName = "localhost";    //caminho do servidor do BD
+            String serverName = "localhost:3307";    //caminho do servidor do BD
         	 
-            String mydatabase ="calCard";        //nome do seu banco de dados
+            String mydatabase ="bdproposta";        //nome do seu banco de dados
  
             String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
  
             String username = "root";        //nome de um usuário de seu BD      
  
-            String password = "mic@2019";      //sua senha de acesso
+            String password = "root";      //sua senha de acesso
  
             connection = DriverManager.getConnection(url, username, password);
         	 
@@ -53,7 +53,7 @@ public class ConexaoMySQL {
             return null;
         } catch (SQLException e) {
         	//Não conseguindo se conectar ao banco
-            System.out.println("Nao foi possivel conectar ao Banco de Dados." + e.getMessage());
+            System.out.println("Nao foi possivel conectar ao Banco de Dados.sss" + e.getMessage());
             return null;
         }
     }
