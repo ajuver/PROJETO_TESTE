@@ -1,4 +1,5 @@
-com\propostaCredito\propostaCredito\app\service\CadastroPropostaCredito.class
-com\propostaCredito\propostaCredito\app\resources\conexaoBanco\ConexaoMySQL.class
-com\propostaCredito\propostaCredito\configuration\PropostaCreditoApplication.class
-com\propostaCredito\propostaCredito\configuration\SwaggerConfig.class
+br\com\appProposta\PropostaCreditoApplication.class
+br\com\appProposta\repository\PropostaRepository.class
+br\com\appProposta\SwaggerConfig.class
+br\com\appProposta\model\Proposta.class
+br\com\appProposta\service\PropostaCredito.class

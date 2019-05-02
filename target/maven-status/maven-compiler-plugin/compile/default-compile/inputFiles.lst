@@ -1,4 +1,5 @@
-D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\com\propostaCredito\propostaCredito\configuration\PropostaCreditoApplication.java
-D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\com\propostaCredito\propostaCredito\configuration\SwaggerConfig.java
-D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\com\propostaCredito\propostaCredito\app\resources\conexaoBanco\ConexaoMySQL.java
-D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\com\propostaCredito\propostaCredito\app\service\CadastroPropostaCredito.java
+D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\br\com\appProposta\service\PropostaCredito.java
+D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\br\com\appProposta\PropostaCreditoApplication.java
+D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\br\com\appProposta\repository\PropostaRepository.java
+D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\br\com\appProposta\model\Proposta.java
+D:\MICHAEL\workspace_projetos_java\propostaCredito\src\main\java\br\com\appProposta\SwaggerConfig.java
